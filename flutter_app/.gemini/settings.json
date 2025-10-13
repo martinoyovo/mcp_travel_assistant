@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "travel-assistant": {
+      "command": "dart",
+      "args": [
+        "run",
+        "/Users/kos14224/Documents/kyovoRepos/flight_search_tool/mcp_server/bin/server.dart"
+      ]
+    }
+  }
+}

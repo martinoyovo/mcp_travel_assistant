@@ -1,0 +1,14 @@
+name: travel_assistant_mcp
+description: MCP server for travel assistant demo
+version: 1.0.0
+
+environment:
+  sdk: '>=3.9.0 <4.0.0'
+
+dependencies:
+  mcp_dart: ^0.4.0
+  http: ^1.1.0
+  path: ^1.9.0
+
+dev_dependencies:
+  lints: ^3.0.0
