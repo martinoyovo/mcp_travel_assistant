@@ -43,3 +43,70 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# Subdirectory specific ignores
+# Flutter app directory
+/flutter_app/build/
+/flutter_app/.dart_tool/
+/flutter_app/.flutter-plugins
+/flutter_app/.flutter-plugins-dependencies
+/flutter_app/.pub-cache/
+/flutter_app/.pub/
+/flutter_app/*.iml
+/flutter_app/ios/Flutter/.last_build_id
+/flutter_app/ios/Pods/
+/flutter_app/ios/Podfile.lock
+/flutter_app/macos/Pods/
+/flutter_app/macos/Podfile.lock
+
+# MCP server directory
+/mcp_server/.dart_tool/
+/mcp_server/.flutter-plugins
+/mcp_server/.flutter-plugins-dependencies
+/mcp_server/.pub-cache/
+/mcp_server/.pub/
+/mcp_server/build/
+/mcp_server/*.iml
+
+# Gemini config directory
+/gemini_config/*.iml
+/gemini_config/.idea/
+
+# Shared data directory
+/shared_data/*.iml
+/shared_data/.idea/
+
+# Additional common patterns for all subdirectories
+# Environment files
+**/.env
+**/.env.local
+**/.env.*.local
+
+# Coverage reports
+**/coverage/
+**/lcov.info
+
+# Temporary files
+**/*.tmp
+**/*.temp
+
+# OS generated files
+**/.DS_Store
+**/Thumbs.db
+
+# Editor directories and files
+**/.vscode/
+**/.idea/
+**/*.swp
+**/*.swo
+**/*~
+
+# Logs
+**/*.log
+**/logs/
+
+# Runtime data
+**/pids
+**/*.pid
+**/*.seed
+**/*.pid.lock

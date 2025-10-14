@@ -1,7 +1,7 @@
 {
   "mcpServers": {
     "travel-assistant": {
-      "command": "/Users/kos14224/Documents/kyovoRepos/flight_search_tool/mcp_server/travel_server",
+      "command": "/absolute/path/flight_search_tool/mcp_server/travel_server",
       "args": []
     }
   }

@@ -4,7 +4,7 @@
       "command": "dart",
       "args": [
         "run",
-        "/Users/kos14224/Documents/kyovoRepos/flight_search_tool/mcp_server/bin/server.dart"
+        "/absolute/path/flight_search_tool/mcp_server/bin/server.dart"
       ],
       "env": {}
     }
